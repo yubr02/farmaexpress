@@ -1,0 +1,143 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif; 
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #132666;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #132666;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+nav a:hover {
+    color: #132666;
+}
+
+/* Seção Quem Somos */
+#about-us {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-content {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+/* Estilos da Equipe */
+.team {
+    margin-top: 40px;
+}
+
+.team h3 {
+    font-size: 2rem;
+    color: #132666;
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Rodapé */
+footer {
+    background-color: #132666;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+

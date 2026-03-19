@@ -1,0 +1,127 @@
+header {
+    background-color: #132666; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Espaço entre a logo e os links */
+    align-items: center; /* Alinhamento vertical */
+    max-width: 1200px; /* Largura máxima do cabeçalho */
+    margin: 0 auto; /* Centraliza o cabeçalho na página */
+    padding: 0 20px; /* Espaçamento lateral */
+}
+
+.logo {
+    width: 100px; /* Largura da logo */
+    height: auto; /* Altura automática */
+}
+h1 {
+    font-family: 'Teko', sans-serif; /* Aplica a fonte Teko ao título */
+    font-size: 2.5em; /* Ajuste o tamanho conforme necessário */
+    margin: 0; /* Remove margens se necessário */
+}
+nav {
+    display: flex; /* Exibe os links em linha */
+}
+
+nav a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    margin: 0 15px; /* Espaçamento entre os links */
+    font-weight: 500; /* Peso da fonte dos links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.form-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #3c6499;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #3c6499;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    background-color: #132666;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #132666;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #132666;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Rodapé */
+footer {
+    background-color: #132666;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 1rem;
+}

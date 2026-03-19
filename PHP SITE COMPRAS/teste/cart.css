@@ -1,0 +1,191 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header-content {
+    background-color: #132666; /* Verde do cabeçalho */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-content .logo {
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5em; /* Tamanho do título */
+    color: white; /* Cor do título */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white; /* Cor dos links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efeito de hover nos links */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* Cor de fundo do carrinho */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra do container */
+}
+
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-items h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em; /* Tamanho do título dos itens do carrinho */
+    color: #333; /* Cor do título */
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Linha separadora entre itens */
+    padding-bottom: 10px; /* Espaçamento inferior */
+}
+
+.cart-item img {
+    width: 100px; /* Tamanho da imagem do produto */
+    height: auto;
+    margin-right: 20px; /* Espaçamento entre imagem e texto */
+}
+
+.cart-item h3 {
+    margin: 0 0 10px 0; /* Margens do nome do produto */
+    font-size: 1.5em; /* Tamanho do nome do produto */
+}
+
+.cart-item p {
+    margin: 0; /* Remove margens do parágrafo */
+}
+
+.cart-item span {
+    margin-left: auto; /* Alinha o preço à direita */
+    font-size: 1.2em; /* Tamanho do preço */
+    font-weight: bold; /* Negrito para o preço */
+}
+
+.remove {
+    background-color: #f44336; /* Cor do botão de remoção */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.remove:hover {
+    background-color: #c62828; /* Cor do botão ao passar o mouse */
+}
+
+.cart-total {
+    font-size: 1.5em; /* Tamanho do total */
+    margin-top: 20px; /* Espaço acima do total */
+    font-weight: bold; /* Negrito para o total */
+}
+
+.payment-method {
+    margin-top: 20px; /* Espaço acima do método de pagamento */
+}
+
+.payment-method select {
+    padding: 10px;
+    width: 100%; /* Largura total do select */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ddd; /* Bordas do select */
+}
+
+.cartao-credito {
+    margin-top: 10px; /* Espaço acima do formulário do cartão */
+}
+
+.cartao-credito label {
+    display: block; /* Faz com que cada label fique em uma linha */
+    margin-top: 10px; /* Espaço acima de cada label */
+}
+
+.cartao-credito input {
+    width: 100%; /* Largura total dos inputs */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ddd; /* Bordas dos inputs */
+}
+
+button[type="submit"] {
+    background-color: #132666; /* Cor do botão de finalizar */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    margin-top: 20px; /* Espaço acima do botão */
+    width: 100%; /* Largura total do botão */
+    font-size: 1.2em; /* Tamanho do texto do botão */
+}
+
+button[type="submit"]:hover {
+    background-color: #132666; /* Cor do botão ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .header-content {
+        padding: 15px; /* Reduz o padding no cabeçalho em telas menores */
+    }
+
+    h1 {
+        font-size: 2em; /* Reduz o tamanho do título em telas menores */
+    }
+
+    .cart-item img {
+        width: 80px; /* Reduz o tamanho da imagem em telas menores */
+    }
+
+    .cart-item h3 {
+        font-size: 1.2em; /* Reduz o tamanho do nome do produto em telas menores */
+    }
+
+    .cart-total {
+        font-size: 1.2em; /* Reduz o tamanho do total em telas menores */
+    }
+
+    button[type="submit"] {
+        font-size: 1em; /* Reduz o tamanho do texto do botão em telas menores */
+    }
+}
+
+footer {
+    background-color: #132666;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 1rem;
+}
