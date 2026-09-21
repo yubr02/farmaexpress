@@ -1,77 +1,60 @@
-# 🏥 FarmaExpress
+# FarmaExpress
 
-Plataforma web desenvolvida para facilitar o acesso a produtos farmacêuticos, permitindo que usuários realizem pedidos de forma prática e acessível.
+Plataforma web desenvolvida como TCC para facilitar a consulta e o pedido de produtos farmacêuticos, reunindo catálogo, usuários, pedidos e persistência em banco de dados.
 
----
+## Demonstração
 
-## 🎥 Demonstração
+[![Assistir à demonstração](https://img.youtube.com/vi/-OlDu8rl1Eg/maxresdefault.jpg)](https://www.youtube.com/watch?v=-OlDu8rl1Eg)
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=-OlDu8rl1Eg">
-    <img src="https://img.youtube.com/vi/-OlDu8rl1Eg/maxresdefault.jpg" width="700px"/>
-  </a>
-</p>
+## Funcionalidades
 
----
+- Catálogo e busca de produtos
+- Cadastro e autenticação de usuários
+- Carrinho e fluxo de pedidos
+- Filtros para localização de medicamentos
+- Integração com MySQL
+- Interface responsiva
+- Sistema desktop complementar para operação e relatórios
 
-## 🚀 Funcionalidades
+## Tecnologias
 
-- 🛒 Catálogo de produtos  
-- 🔍 Busca de medicamentos  
-- 👤 Cadastro de usuários  
-- 📦 Sistema de pedidos  
-- 📱 Interface acessível e responsiva  
+| Camada | Tecnologias |
+| --- | --- |
+| Front-end | HTML, CSS, JavaScript |
+| Back-end | PHP |
+| Banco de dados | MySQL/MariaDB |
+| Aplicação desktop | Python, Qt |
+| Ambiente local | XAMPP |
 
----
+## Como executar
 
-## 🛠️ Tecnologias
+### Pré-requisitos
 
-**Front-end:**
-- HTML
-- CSS
-- JavaScript
+- XAMPP ou ambiente equivalente com PHP e MySQL/MariaDB
+- Navegador moderno
 
-**Back-end:**
-- PHP
+### Instalação
 
-**Banco de Dados:**
-- MySQL
+1. Clone o repositório:
 
-**Ferramentas:**
-- Git
-- GitHub
+```bash
+git clone https://github.com/yubr02/farmaexpress.git
+```
 
----
+2. Copie a pasta do projeto para o diretório `htdocs` do XAMPP.
+3. Inicie Apache e MySQL.
+4. Localize o arquivo `.sql` do projeto e importe-o pelo phpMyAdmin.
+5. Confira as credenciais de conexão com o banco no código.
+6. Abra no navegador o endereço correspondente à pasta, por exemplo:
 
-## 🧠 Arquitetura
+```text
+http://localhost/farmaexpress/
+```
 
-O sistema foi desenvolvido seguindo boas práticas:
+## Contexto
 
-- MVC (Model-View-Controller)  
-- Arquitetura em Camadas  
-- Cliente-Servidor  
+O projeto foi criado para resolver um problema real e consolidar conhecimentos de desenvolvimento web, banco de dados, acessibilidade e construção de sistemas completos.
 
----
+## Autor
 
-## ⚙️ Como executar o projeto
-
-### 🔧 Backend (PHP)
-
-1. Configure um servidor local (XAMPP, WAMP ou similar)  
-2. Coloque o projeto na pasta do servidor (`htdocs`)  
-3. Inicie o Apache e MySQL  
-
----
-
-### 🗄️ Banco de Dados
-
-1. Crie um banco no MySQL  
-2. Importe o arquivo `.sql` do projeto  
-3. Configure a conexão no código  
-
----
-
-### 🌐 Acesso
-
-Abra no navegador:
-
+Desenvolvido por [Matheus Santos Carvalho](https://github.com/yubr02).
